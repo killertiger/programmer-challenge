@@ -1,15 +1,10 @@
-cordova-screenshot
+programmer-challenge
 ==================
 
-[![NPM version](http://img.shields.io/npm/v/com.darktalker.cordova.screenshot.svg?style=flat)](https://www.npmjs.com/package/com.darktalker.cordova.screenshot)
+This is a python program to test the hability to find a solution to a simple problem.
 
+The problem is:
 
-The Screenshot plugin allows your application to take screenshots of the current screen and save them into the phone.
-
-##how to install
-
-install it via cordova cli
-
-```
-cordova plugin add https://github.com/gitawego/cordova-screenshot.git
-```
+CHAR = If return the CHAR in the same position, so you found the right CHAR in the right position
+- = Have the CHAR but in the wrong position
+* = Don't have de char on the string
