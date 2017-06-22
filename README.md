@@ -36,3 +36,7 @@ URL: https://programmerchallenge.herokuapp.com/challenge/run_task/
 POST: teste
 
 Try to do a POST in this url with a message
+
+Or just try to acess in your browser:
+
+https://programmerchallenge.herokuapp.com/challenge/run_task/?phrase=gth
