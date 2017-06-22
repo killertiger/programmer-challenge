@@ -8,8 +8,10 @@ def run_task(request):
     output = "";
     if request.method == "POST" and request.body:
         output = validate_text(request.body.decode('utf-8'), SECRET_TEXT)
+    elif request.method == "GET" and request.GET.get("phrase"):
+        output = validate_text(request.GET.get("phrase"), SECRET_TEXT)
     else:
-        output = "You should pass the variable value as POST"
+        output = "You should pass the phrase in GET using the var phrase OR in POST body"
     return HttpResponse(output)
 
 # Create your views here.
