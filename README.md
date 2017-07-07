@@ -9,8 +9,11 @@ The program should make a POST request in the URL: https://programmerchallenge.h
 ### Guide:
 
 CHAR = If return the CHAR in the same position, so you found the right CHAR in the right position
-* = Have the CHAR but in the wrong position
-? = Don't have de char on the string
+
+``- = Have the CHAR but in the wrong position``
+
+``* = Don't have de char on the string``
+
 
 Allowed chars:
 Letters: A-Z, a-z
@@ -22,10 +25,10 @@ If the phrase is: "Steve Jobs"
 
 Request    | Response | Explain
 ------- |  --------- | ---------
-aeiou | ?*?*? | "e" and "o" have on the string but in the wrong position
-steve | *teve | "s" has only in the "Jobs"
+aeiou | ``?-?-?`` | "e" and "o" have on the string but in the wrong position
+steve | ``-teve`` | "s" has only in the "Jobs"
 Steve | Steve | That's right so far
-Steve bobs | Steve *obs | "b" has only in Jobs
+Steve bobs | ``Steve -obs`` | "b" has only in Jobs
 Steve Jobs Jobs | Steve Jobs | The text legth will be in the maximum the len of "Steve Jobs"
 Steve Jobs | Steve Jobs | That's GREAT!
 
