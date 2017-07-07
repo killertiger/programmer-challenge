@@ -25,7 +25,7 @@ If the phrase is: "Steve Jobs"
 
 Request    | Response | Explain
 ------- |  --------- | ---------
-aeiou | ``?-?-?`` | "e" and "o" have on the string but in the wrong position
+aeiou | ``*-*-*`` | "e" and "o" have on the string but in the wrong position
 steve | ``-teve`` | "s" has only in the "Jobs"
 Steve | Steve | That's right so far
 Steve bobs | ``Steve -obs`` | "b" has only in Jobs
